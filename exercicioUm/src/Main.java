@@ -1,6 +1,6 @@
 import java.io.IOException;
 
-public class Main {
+public class Main { //java Programa
     public static void main(String[] args) {
 
         if (args.length > 0) { //verifica se tem algo no args
