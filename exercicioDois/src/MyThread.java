@@ -23,7 +23,7 @@ public class MyThread extends Thread{
         long tempo = System.currentTimeMillis();
         for (int n =0; n< threads;n++){
             lista.add(new MyThread(numeroPorThread));
-            lista.get(lista.size()-1).start();
+            lista.get(lista.size()-1).start(); 
         }
 
         boolean continuar = true;
